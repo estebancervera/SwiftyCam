@@ -19,7 +19,7 @@ let package = Package(
         .target(
             name: "SwiftyCam",
             dependencies: ["ReactiveSwift", "SwiftyJSON"],
-            path: "Sources"),
+            path: "Source"),
         .testTarget(
             name: "SwiftyCamTests",
             dependencies: ["SwiftyCam"],
